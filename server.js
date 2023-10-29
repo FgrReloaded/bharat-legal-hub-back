@@ -23,7 +23,7 @@ app.use("/api/otp", verifyRoute);
 const port = process.env.PORT || 2000;
 
 app.listen(port, function () {
-    console.log("Server is running at " + PORT);
+    console.log("Server is running at " + port);
 }
 );
 
