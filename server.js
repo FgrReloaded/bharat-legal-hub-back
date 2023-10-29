@@ -20,9 +20,9 @@ app.use("/api/auth", authRoute);
 app.use("/api/otp", verifyRoute);
 
 
-const PORT = 2000 || process.env.PORT;
+const port = process.env.PORT || 2000;
 
-app.listen(PORT, function () {
+app.listen(port, function () {
     console.log("Server is running at " + PORT);
 }
 );
